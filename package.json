@@ -16,5 +16,14 @@
   },
   "engines": {
     "node": "^16.14.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lederback/curriculo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lederback/curriculo/issues"
+  },
+  "homepage": "https://github.com/Lederback/curriculo#readme"
 }
