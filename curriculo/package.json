@@ -1,0 +1,16 @@
+{
+  "name": "curriculo",
+  "version": "1.0.0",
+  "description": "servidor do meu curriculo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RenatoMachado",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8"
+  }
+}

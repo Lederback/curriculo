@@ -1,4 +1,3 @@
-
 const express = require('express'); 
 const app = express();
 const bodyParser = require('body-parser')
@@ -7,16 +6,15 @@ const cors = require("cors");
 const sqlite3 = require('sqlite3').verbose();
 const DBPATH = 'curriculo.db';
 
-const hostname = '127.0.0.1';
-const port = 1105;
+const port = process.env.PORT || 1105;
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.json());
 app.use(express.static("front-end"));
 app.use(cors());
 
-app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+app.listen(port, () => {
+  console.log(`Server running at :${port}/`);
 });
 
 app.get("/user", function(req, res){
