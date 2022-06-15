@@ -4,7 +4,8 @@
   "description": "servidor do meu curriculo",
   "main": "app.js",
   "scripts": {
-    "run": "node app.js"
+    "run": "node app.js",
+    "start": "node app.js",
   },
   "author": "RenatoMachado",
   "license": "ISC",
